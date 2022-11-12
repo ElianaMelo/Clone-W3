@@ -133,10 +133,105 @@ background-color: aqua;
 
 /**section Tipo 2*/
 
+
 .sectionTipo2{
     background-color: var(--cor--de--fundo);
-    height: 600px;
-    display: flex;
-    justify-content: space-evenly;
 }
 
+.sectionTipo2 div{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sectionTipo2 .divt2{
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 130px;
+    background-color: aqua;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+
+.sectionTipo2 .divt2 h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.sectionTipo2 .divt2 a{
+    text-decoration: none;
+    color: rgb(254, 253, 253);
+    margin-top: 30px;
+    background-color: var(--cor--de--fundo);
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.sectionTipo2 .divt2 a:hover{
+    background-color: rgb(37, 65, 91);
+}
+
+/**section Tipo 3*/
+.sectionTipo3{
+    margin-top: 0px;
+    height: 600px;
+    background-color: var(--cor--de--fundo);
+}
+
+.sectionTipo3 .div1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sectionTipo3 .div1 a{
+    background-color: #FFC0C7;
+    padding: 40px 120px;
+    border-radius: 20px;
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.sectionTipo3 .div1 a:hover{
+    background-color: #f77a89;
+}
+
+.section-f{
+    background-color: var(--cor--de--fundo);
+    height: 600px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.section-f h2{
+    font-size: 80px;
+}
+
+.section-f p{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-f img{
+    width: 590px;
+    height: 350px;
+}
+
+footer{
+    background-color: rgb(4, 10, 16);
+    color: white;
+    text-align: center;
+}
+
+footer p{
+    padding: 50px;
+}
+
+footer a{
+    color: white;
+    font-family: sans-serif;
+}
