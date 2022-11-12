@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root{
+    --cor--de--fundo:rgb(13,23,33);
+}
+
+/**Header*/
+
+header{
+    background-color: var(--cor--de--fundo);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1{
+    margin-top: 140px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+header p{
+    color: #FFC0C7;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+header a{
+    color: white;
+    font-size: 20px;
+}
+
+header a:hover{
+    color: rgb(4, 99, 67);
+}
+
+/**section1*/
+
+.section1{
+    background-color: #D9EEE1;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.section1 h2{
+    font-size: 100px;
+}
+
+.section1 p{
+    font-size: 18px;
+    margin-bottom: 30;
+}
+
+.section1 ul{
+    list-style: none;
+}
+
+.section1 div.div1 ul a{
+    color: black;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.section1 div.div1 ul a:hover{
+    background-color: rgb(21,87,87);
+}
+
+.section1 div.div1 ul li{
+    padding: 20px;
+}
+
+.section1 div.div2 {
+    width: 500px;
+}
+
+.section1 div.div2 iframe{
+    height: 400px;
+    border-radius: 5px;
+}
+
+/**section2*/
+
+.section2{
+    background-color: rgb(252, 220, 90);
+}
+
+.section2 div.div1 ul a{
+    background-color: rgb(20,36,36);
+    color: white;
+}
+
+/**section3*/
+.section3{
+    background-color: var(--cor--de--fundo);
+}
+
+.section3 h2{
+    color: white;
+}
+
+.section3 p{
+    color: white;
+}
+
+/**section4*/
+
+.section4{
+background-color: aqua;
+}
+
+.section4 div.div1 ul a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(49, 168, 17);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/**section Tipo 2*/
+
+.sectionTipo2{
+    background-color: var(--cor--de--fundo);
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
