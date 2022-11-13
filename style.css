@@ -69,11 +69,39 @@ header a:hover{
 }
 
 .section1 div.div1 ul a{
-    color: black;
     text-decoration: none;
-    background-color: aqua;
-    padding: 10px;
+    padding: 8px 16px;
     border-radius: 20px;
+}
+
+.section1 div.div1 ul a.a1{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.section1 div.div1 ul a.a2{
+    background-color: #FFF4A3;
+    color: black;
+}
+
+.section1 div.div1 ul a.a3{
+    background-color: #282A35;
+    color: white;
+}
+
+.section1 div.div1 ul a.a4{
+    background-color: #FFC0C7;
+    color: black;
+}
+
+.section1 div.div1 ul a.a5{
+    background-color: white;
+    color: black;
+}
+
+.section1 div.div1 ul a.a6{
+    background-color: black;
+    color: white;
 }
 
 .section1 div.div1 ul a:hover{
