@@ -171,15 +171,38 @@ background-color: aqua;
     margin-bottom: 15px;
     display: flex;
     justify-content: space-evenly;
-
 }
+
 .sectionTipo2 .divt2{
     flex-direction: column;
     align-items: center;
     padding: 80px 130px;
-    background-color: aqua;
     border-radius: 20px;
     font-family: sans-serif;
+}
+
+.sectionTipo2 .divt2.color1{
+    background-color: #FFC0C7;
+}
+
+.sectionTipo2 .divt2.color2{
+    background-color: #FFF4A3;
+}
+
+.sectionTipo2 .divt2.color3{
+    background-color: #F3ECEA;
+}
+
+.sectionTipo2 .divt2.color4{
+    background-color: #D9EEE1;    
+}
+
+.sectionTipo2 .divt2.color5{
+    background-color: #96D4D4;
+}
+
+.sectionTipo2 .divt2.color6{
+    background-color: #E7E9EB;
 }
 
 .sectionTipo2 .divt2 h3{
@@ -213,13 +236,28 @@ background-color: aqua;
 }
 
 .sectionTipo3 .div1 a{
-    background-color: #FFC0C7;
     padding: 40px 120px;
     border-radius: 20px;
     text-decoration: none;
     color:black;
     font-family: sans-serif;
     font-weight: 700;
+}
+
+.sectionTipo3 .div1 a.a1{
+    background-color: #F3ECEA;
+}
+
+.sectionTipo3 .div1 a.a2{
+    background-color: #D9EEE1;
+}
+
+.sectionTipo3 .div1 a.a3{
+    background-color: #96D4D4;
+}
+
+.sectionTipo3 .div1 a.a4{
+    background-color: #FFC0C7;
 }
 
 .sectionTipo3 .div1 a:hover{
